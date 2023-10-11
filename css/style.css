@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    background: white;
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.header_content {
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+
+.header_p1 {
+    font-size: 16px;
+}
+
+.header_p2 {
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ffa019;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 11px 46px;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.section_1 {
+    height: 62px;
+    background: #ffffff;
+}
+
+.section_1_content {
+    display: flex;
+    align-items: center;
+}
+
+.section_1 div h1 {
+    font-size: 30px;
+}
+
+.section_1 div p {
+    margin-left: 25px;
+}
+
+.nav_menu {
+    display: flex;
+    margin-left: auto;
+    font-weight: lighter;
+}
+
+.nav_menu a {
+    color: #9d9d9d;
+}
+
+.background_first_screen {
+    width: 100%;
+    background: url("../img/scooter-3620869_960_720.jpg") no-repeat center top / cover;
+}
+
+.section_2 {
+    color: white;
+    margin-top: aut;
+}
+
+.section_2_content {}
+
+.section_2 div h1 {
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    font-weight: lighter;
+}
+
+.section_2_content_info {
+    text-align: center;
+    font-weight: lighter;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.section_2 div a {
+    color: #000000;
+}
+
+.section_2 div a p {
+    width: fit-content;
+    font-size: 14px;
+    font-weight: bold;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 11px 38px;
+    text-decoration: none;
+    margin: auto;
+}
