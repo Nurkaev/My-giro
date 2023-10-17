@@ -339,11 +339,20 @@ header {
 
 .catalog_block {
   background: #FBFBFB;
+  padding-top: 30px;
+}
+
+.catalog_content_blocks {
+  padding-bottom: 50px;
+}
+
+.catalog_content_block {
+  background: #FFFFFF;
 }
 
 .catalog_content_block_info {
   margin-left: 23px;
-  background: #FBFBFB;
+  background: #fffffF;
 }
 
 .catalog_content_block_info_p1 {
@@ -454,7 +463,12 @@ header {
 }
 
 footer {
+  padding-top: 30px;
   background: #FBFBFB;
+}
+
+.footer_content {
+  display: block;
 }
 
 .footer_div1 {
@@ -506,7 +520,7 @@ footer {
 }
 
 .footer_div2 {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .footer_div2 p {
@@ -514,4 +528,70 @@ footer {
   font-size: 12px;
   font-style: normal;
   line-height: 16px;
+}
+
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  width: 280px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  margin-bottom: 10px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.form-container input[type=phone] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+.form-container input[type=phone]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #ffa019;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.form-container .cancel {
+  background-color: #212121;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 0.9;
 }

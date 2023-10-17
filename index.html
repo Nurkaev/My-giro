@@ -16,7 +16,7 @@
           <div class="container">
             <p class="call_info">Мы всегда рады помочь по телефону +7 923 398
               9013</p>
-            <a href="#">
+            <a id="btn_call" href="#">
               <p class="btn_call">ЗАКАЗАТЬ ЗВОНОК</p>
             </a>
           </div>
@@ -199,7 +199,6 @@
                 </div>
               </div>
             </div>
-         
       </div>
       <div id="comand" class="consultant_block">
         <div class="consultant_content container">
@@ -267,8 +266,8 @@
         </div>
       </div>
     </main>
-    <footer class="container">
-      <div class="footer_content">
+    <footer>
+      <div class="footer_content container">
         <div class="footer_div1">
           <div>
             <p class="footer_div1_p1">В нашем интернет-магазине представлен
@@ -304,6 +303,14 @@
         </div>
       </div>
     </footer>
+    <div class="form-popup" id="myForm">
+      <form class="form-container">
+        <input type="phone" placeholder="Введите номер телефона" name="phone" required>
+        <button type="submit" class="btn" onclick="closeForm()">Заказать</button>
+        <button type="submit" class="btn cancel" onclick="closeForm()">Закрыть</button>
+      </form>
+    </div>
+    <script src="js/script.js"></script>
   </body>
 
 </html>
