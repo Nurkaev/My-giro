@@ -31,6 +31,10 @@ header {
   margin: 12px 0;
 }
 
+.btn_call:hover {
+  background: #ff9f19da;
+}
+
 .call_info {
   font-size: 16px;
   font-weight: 400;
@@ -43,7 +47,6 @@ header {
   margin: auto;
   justify-content: space-between;
 }
-
 .section_1 {
   display: flex;
   justify-content: space-between;
@@ -63,6 +66,10 @@ header {
   font-size: 14px;
   font-weight: 400;
   margin-left: 15px;
+}
+
+.section_1_els p a:hover {
+  color: #9b9b9bd9;
 }
 
 .header_container_zag {
@@ -99,6 +106,10 @@ header {
   padding: 11px 0;
   margin: auto;
   margin-top: 30px;
+}
+
+.header_container_zag_p_a:hover {
+  background: #ffffffd9;
 }
 
 .nashi_preim_block {
@@ -188,6 +199,14 @@ header {
   font-weight: 600;
   padding: 12px 60px;
   background: white;
+}
+
+.submit_block_content a p:hover {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 60px;
+  background: rgba(255, 255, 255, 0.882);
 }
 
 .submit_block_content div {
@@ -380,6 +399,10 @@ header {
   padding: 8px 4px;
   background: #ffa019;
   border-radius: 10px;
+}
+
+.catalog_content_block_info a:hover {
+  background: #ff9f19d6;
 }
 
 .brands_block {
